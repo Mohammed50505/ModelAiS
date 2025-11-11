@@ -1,7 +1,0 @@
-@echo off
-echo 🎓 Advanced AI Exam Monitoring System v3.0
-echo 🎓 نظام مراقبة الامتحانات المتقدم
-echo.
-echo بدء النظام...
-python start_simple.py
-pause

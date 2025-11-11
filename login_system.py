@@ -12,7 +12,8 @@ import hashlib
 import time
 
 # استدعاء باقي الصفحات
-import app
+# Dashboard removed - experimental feature
+# import app
 import student_exam_page
 
 class LoginSystem:
@@ -130,7 +131,8 @@ def main():
     # لو المستخدم خلاص مسجل دخول
     if st.session_state.logged_in_user:
         if st.session_state.login_role == 'admin':
-            app.main()
+            st.info("⚠️ لوحة التحكم التجريبية تم إزالتها. استخدم النظام الأساسي (main.py) للمراقبة.")
+            st.info("💡 لتشغيل النظام: python main.py")
             return
         elif st.session_state.login_role == 'student':
             student_exam_page.main()
