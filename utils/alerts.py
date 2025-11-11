@@ -32,7 +32,9 @@ class AlertManager:
                 'talking': 20,
                 'face_movement': 15,
                 'suspicious_sounds': 15,
-                'suspicious_emotion': 20
+                'suspicious_emotion': 20,
+                'suspicious_behavior': 12,
+                'high_risk_behavior': 18
             }
         
         # Exam termination

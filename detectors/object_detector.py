@@ -5,6 +5,7 @@ Object Detection Module using YOLO
 
 import cv2
 import numpy as np
+import time
 from ultralytics import YOLO
 
 
@@ -50,29 +51,44 @@ class ObjectDetector:
         print("✅ YOLO model loaded and optimized")
         
         # Frame skipping for speed (process every N frames)
-        self.frame_skip = 2  # Process every 2nd frame
+        # Adaptive: use more skipping on CPU, less on GPU
+        self.frame_skip = 3 if self.device == 'cpu' else 2
         self.frame_count = 0
         self.last_results = None
+        
+        # Cache for faster processing
+        self.result_cache = {}
+        self.cache_timeout = 0.1  # 100ms cache
+        self.last_cache_time = 0
     
     def detect(self, frame):
-        """Detect forbidden objects in frame (with frame skipping for speed)"""
+        """Detect forbidden objects in frame (with frame skipping and caching for speed)"""
         self.frame_count += 1
+        current_time = time.time()
         
         # Skip frames for speed (only process every N frames)
         if self.frame_count % self.frame_skip != 0:
-            return self.last_results or []
+            # Use cached results if available and fresh
+            if (self.last_results and 
+                current_time - self.last_cache_time < self.cache_timeout):
+                return self.last_results
+            return []
         
         try:
             conf_threshold = self.config.YOLO_CONFIDENCE_THRESHOLD if self.config else 0.5
             
             # Run YOLO with optimized settings
+            # Use smaller image size for CPU, larger for GPU
+            img_size = 480 if self.device == 'cpu' else 640
+            
             results = self.yolo_model(
                 frame,
                 verbose=False,
                 conf=conf_threshold,
-                imgsz=640,  # Smaller for speed
+                imgsz=img_size,
                 half=False,
-                device=self.device
+                device=self.device,
+                max_det=20  # Limit detections for speed
             )
             
             objects_detected = []
@@ -97,6 +113,7 @@ class ObjectDetector:
                             })
             
             self.last_results = objects_detected
+            self.last_cache_time = current_time
             return objects_detected
             
         except Exception as e:
