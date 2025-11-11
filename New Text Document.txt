@@ -1,0 +1,16 @@
+التشغيل السريع: 
+python run_system.py
+python run_advanced_system.py 
+التشغيل المنفصل:
+# النظام الأساسي
+python main.py
+
+# لوحة التحكم المتطورة
+python -m streamlit run app.py
+
+
+# اختبار الوحدات الجديدة
+
+python notification_system.py
+python pdf_reports.py
+py start_simple.py

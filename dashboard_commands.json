@@ -1,0 +1,34 @@
+[
+  {
+    "action": "start",
+    "timestamp": "2025-10-16T22:12:50.565417",
+    "student_id": "A102",
+    "student_name": "Mohamed Reda",
+    "exam_id": "A102",
+    "exam_title": "امتحان برمجة"
+  },
+  {
+    "action": "start",
+    "timestamp": "2025-10-26T22:37:06.643066",
+    "student_id": "A102",
+    "student_name": "Mohamed Reda",
+    "exam_id": "A102",
+    "exam_title": "امتحان برمجة"
+  },
+  {
+    "action": "start",
+    "timestamp": "2025-10-26T22:37:10.658699",
+    "student_id": "A102",
+    "student_name": "Mohamed Reda",
+    "exam_id": "A102",
+    "exam_title": "امتحان برمجة"
+  },
+  {
+    "action": "start",
+    "timestamp": "2025-11-06T14:29:41.506555",
+    "student_id": "A102",
+    "student_name": "Mohamed Reda",
+    "exam_id": "A102",
+    "exam_title": "امتحان برمجة"
+  }
+]

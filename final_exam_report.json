@@ -1,0 +1,49 @@
+{
+  "timestamp": "2025-10-07T12:44:28.961727",
+  "student": "Mohamed Reda",
+  "final_score": 100,
+  "total_violations": 32,
+  "incidents": [
+    {
+      "timestamp": "12:43:34",
+      "type": "forbidden_object",
+      "object": "cell phone",
+      "confidence": 0.6418544054031372,
+      "severity": "high",
+      "position": [
+        461,
+        442,
+        700,
+        712
+      ]
+    },
+    {
+      "timestamp": "12:44:07",
+      "type": "forbidden_object",
+      "object": "book",
+      "confidence": 0.5048521161079407,
+      "severity": "medium",
+      "position": [
+        597,
+        214,
+        990,
+        505
+      ]
+    },
+    {
+      "timestamp": "12:44:12",
+      "type": "forbidden_object",
+      "object": "laptop",
+      "confidence": 0.8120622038841248,
+      "severity": "high",
+      "position": [
+        357,
+        510,
+        891,
+        713
+      ]
+    }
+  ],
+  "exam_duration": 89.59634399414062,
+  "termination_reason": "Cheating score reached 100"
+}

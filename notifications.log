@@ -1,0 +1,80 @@
+2025-08-25 01:51:24,196 - INFO - Notification queued: face_movement - medium
+2025-08-25 01:51:24,551 - WARNING - Rate limit exceeded for notification: notif_1756075884_3965
+2025-08-25 01:51:34,904 - INFO - Notification queued: face_movement - medium
+2025-08-25 01:51:35,721 - WARNING - Rate limit exceeded for notification: notif_1756075894_195
+2025-08-25 02:49:01,323 - INFO - Notification queued: forbidden_object - high
+2025-08-25 02:49:02,190 - WARNING - Rate limit exceeded for notification: notif_1756079341_9437
+2025-08-25 02:49:08,264 - INFO - Notification queued: forbidden_object - high
+2025-08-25 02:49:08,269 - WARNING - Rate limit exceeded for notification: notif_1756079348_44
+2025-08-25 02:49:14,701 - INFO - Notification queued: face_movement - medium
+2025-08-25 02:49:15,335 - WARNING - Rate limit exceeded for notification: notif_1756079354_3117
+2025-08-25 02:49:21,103 - INFO - Notification queued: face_movement - medium
+2025-08-25 02:49:21,365 - WARNING - Rate limit exceeded for notification: notif_1756079361_6986
+2025-08-25 02:49:40,645 - INFO - Notification queued: face_movement - medium
+2025-08-25 02:49:41,588 - WARNING - Rate limit exceeded for notification: notif_1756079380_7449
+2025-08-25 02:50:07,375 - INFO - Notification queued: person_absent - medium
+2025-08-25 02:50:07,832 - WARNING - Rate limit exceeded for notification: notif_1756079407_7962
+2025-08-25 02:58:57,980 - INFO - Notification queued: forbidden_object - high
+2025-08-25 02:58:58,199 - WARNING - Rate limit exceeded for notification: notif_1756079937_1817
+2025-08-25 02:59:37,933 - INFO - Notification queued: forbidden_object - high
+2025-08-25 02:59:38,635 - WARNING - Rate limit exceeded for notification: notif_1756079977_3358
+2025-08-25 02:59:47,333 - INFO - Notification queued: forbidden_object - high
+2025-08-25 02:59:47,697 - WARNING - Rate limit exceeded for notification: notif_1756079987_493
+2025-08-25 02:59:53,365 - INFO - Notification queued: face_movement - medium
+2025-08-25 02:59:53,781 - WARNING - Rate limit exceeded for notification: notif_1756079993_7724
+2025-08-25 03:00:00,824 - INFO - Notification queued: forbidden_object - high
+2025-08-25 03:00:00,835 - WARNING - Rate limit exceeded for notification: notif_1756080000_8018
+2025-09-23 16:30:10,021 - INFO - Notification queued: face_movement - medium
+2025-09-23 16:30:10,367 - WARNING - Rate limit exceeded for notification: notif_1758634210_6378
+2025-09-23 16:30:18,795 - INFO - Notification queued: face_movement - medium
+2025-09-23 16:30:19,489 - WARNING - Rate limit exceeded for notification: notif_1758634218_7154
+2025-09-23 16:30:32,546 - INFO - Notification queued: face_movement - medium
+2025-09-23 16:30:32,655 - WARNING - Rate limit exceeded for notification: notif_1758634232_6378
+2025-09-23 16:30:55,716 - INFO - Notification queued: forbidden_object - high
+2025-09-23 16:30:55,929 - WARNING - Rate limit exceeded for notification: notif_1758634255_7941
+2025-09-23 16:31:01,511 - INFO - Notification queued: forbidden_object - high
+2025-09-23 16:31:01,967 - WARNING - Rate limit exceeded for notification: notif_1758634261_6426
+2025-09-23 16:31:11,281 - INFO - Notification queued: forbidden_object - high
+2025-09-23 16:31:12,034 - WARNING - Rate limit exceeded for notification: notif_1758634271_7941
+2025-09-23 16:35:15,985 - INFO - Notification queued: face_movement - medium
+2025-09-23 16:35:16,296 - WARNING - Rate limit exceeded for notification: notif_1758634515_9446
+2025-09-23 16:35:21,252 - INFO - Notification queued: forbidden_object - high
+2025-09-23 16:35:21,329 - WARNING - Rate limit exceeded for notification: notif_1758634521_4398
+2025-09-23 16:35:29,119 - INFO - Notification queued: forbidden_object - high
+2025-09-23 16:35:29,371 - WARNING - Rate limit exceeded for notification: notif_1758634529_6214
+2025-09-23 16:35:53,528 - INFO - Notification queued: face_movement - medium
+2025-09-23 16:35:53,596 - WARNING - Rate limit exceeded for notification: notif_1758634553_2198
+2025-09-23 16:36:03,375 - INFO - Notification queued: forbidden_object - high
+2025-09-23 16:36:03,644 - WARNING - Rate limit exceeded for notification: notif_1758634563_7047
+2025-10-07 06:06:31,509 - INFO - Notification queued: forbidden_object - high
+2025-10-07 06:06:31,620 - WARNING - Rate limit exceeded for notification: notif_1759806391_4729
+2025-10-07 06:06:36,577 - INFO - Notification queued: forbidden_object - high
+2025-10-07 06:06:36,647 - WARNING - Rate limit exceeded for notification: notif_1759806396_7725
+2025-10-07 06:06:54,079 - INFO - Notification queued: forbidden_object - high
+2025-10-07 06:06:54,815 - WARNING - Rate limit exceeded for notification: notif_1759806414_7929
+2025-10-07 06:07:01,221 - INFO - Notification queued: forbidden_object - high
+2025-10-07 06:07:01,870 - WARNING - Rate limit exceeded for notification: notif_1759806421_6615
+2025-10-07 06:07:06,615 - INFO - Notification queued: face_movement - medium
+2025-10-07 06:07:06,911 - WARNING - Rate limit exceeded for notification: notif_1759806426_2784
+2025-10-07 10:12:34,090 - INFO - Notification queued: face_away - medium
+2025-10-07 10:12:34,781 - WARNING - Rate limit exceeded for notification: notif_1759821154_2986
+2025-10-07 10:12:46,671 - INFO - Notification queued: face_away - medium
+2025-10-07 10:12:46,875 - WARNING - Rate limit exceeded for notification: notif_1759821166_2986
+2025-10-07 10:12:55,074 - INFO - Notification queued: forbidden_object - high
+2025-10-07 10:12:55,965 - WARNING - Rate limit exceeded for notification: notif_1759821175_9295
+2025-10-07 10:13:05,184 - INFO - Notification queued: forbidden_object - high
+2025-10-07 10:13:06,062 - WARNING - Rate limit exceeded for notification: notif_1759821185_6769
+2025-10-07 10:13:14,911 - INFO - Notification queued: forbidden_object - high
+2025-10-07 10:13:15,150 - WARNING - Rate limit exceeded for notification: notif_1759821194_7262
+2025-10-07 10:13:19,951 - INFO - Notification queued: forbidden_object - high
+2025-10-07 10:13:20,206 - WARNING - Rate limit exceeded for notification: notif_1759821199_1978
+2025-10-07 12:43:14,095 - INFO - Notification queued: face_movement - medium
+2025-10-07 12:43:14,551 - WARNING - Rate limit exceeded for notification: notif_1759830194_3445
+2025-10-07 12:43:34,163 - INFO - Notification queued: forbidden_object - high
+2025-10-07 12:43:34,759 - WARNING - Rate limit exceeded for notification: notif_1759830214_2411
+2025-10-07 12:44:07,328 - INFO - Notification queued: forbidden_object - high
+2025-10-07 12:44:08,021 - WARNING - Rate limit exceeded for notification: notif_1759830247_6466
+2025-10-07 12:44:12,521 - INFO - Notification queued: forbidden_object - high
+2025-10-07 12:44:13,069 - WARNING - Rate limit exceeded for notification: notif_1759830252_8635
+2025-10-07 12:44:18,923 - INFO - Notification queued: face_movement - medium
+2025-10-07 12:44:19,100 - WARNING - Rate limit exceeded for notification: notif_1759830258_9277

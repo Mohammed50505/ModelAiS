@@ -1,0 +1,110 @@
+{
+  "students": {
+    "A102": {
+      "name": "Mohamed Reda",
+      "id": "A102",
+      "username": "mohamed123",
+      "university": "جامعة المنيا",
+      "status": "active",
+      "added_at": "2025-08-25T02:45:34.275530",
+      "last_login": "2025-08-25T03:01:28.667624",
+      "exam_history": [],
+      "current_exam": "A102"
+    }
+  },
+  "credentials": {
+    "mohamed123": {
+      "password": "mohamed1234",
+      "student_id": "A102"
+    }
+  },
+  "questions": {
+    "A101": {
+      "title": "امتحان عربي",
+      "questions": [
+        {
+          "id": 1,
+          "text": "ةةةةة",
+          "type": "text"
+        }
+      ],
+      "duration": 60,
+      "created_at": "2025-08-24T20:08:00.917429",
+      "active": true
+    },
+    "A102": {
+      "title": "امتحان برمجة",
+      "questions": [
+        {
+          "id": 1,
+          "text": "ما هي لغات البرمجة؟",
+          "type": "text"
+        }
+      ],
+      "duration": 60,
+      "created_at": "2025-08-25T00:28:23.648774",
+      "active": true
+    },
+    "A122": {
+      "title": "امتحان رياضيات",
+      "questions": [
+        {
+          "id": "Q1",
+          "text": "ما هي الرياضه",
+          "type": "text"
+        }
+      ],
+      "duration": 60,
+      "created_at": "2025-08-25T02:36:27.534904",
+      "active": true
+    }
+  },
+  "exams": {
+    "A101": {
+      "title": "امتحان عربي",
+      "questions": [
+        {
+          "id": 1,
+          "text": "ةةةةة",
+          "type": "text"
+        }
+      ],
+      "duration": 60,
+      "created_at": "2025-08-24T20:08:00.917429",
+      "active": true
+    },
+    "A102": {
+      "title": "امتحان برمجة",
+      "questions": [
+        {
+          "id": 1,
+          "text": "ما هي لغات البرمجة؟",
+          "type": "text"
+        }
+      ],
+      "duration": 60,
+      "created_at": "2025-08-25T00:28:23.648774",
+      "active": true
+    },
+    "A122": {
+      "title": "امتحان رياضيات",
+      "questions": [
+        {
+          "id": "Q1",
+          "text": "ما هي الرياضه",
+          "type": "text"
+        }
+      ],
+      "duration": 60,
+      "created_at": "2025-08-25T02:36:27.534904",
+      "active": true
+    }
+  },
+  "active_exams": {
+    "A102": {
+      "exam_id": "A102",
+      "start_time": null,
+      "status": "assigned"
+    }
+  }
+}
